@@ -1,0 +1,268 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: Arial black;
+	background: #444;
+}
+
+#squelette{
+	display: grid;
+}
+	/* entête*/
+#header{
+	display:grid;
+	background:#1c1c1c;
+	color: #d5d5d5;
+	height: 5em;
+	width: auto;
+	opacity: 0.9;
+	
+}
+#header .inner{
+	display:flex;
+}
+
+.logo{
+	font-family: Impact,Arial Black,'Anton',Times New Roman;
+	font-size: 1.75em;
+	color: white;
+	margin:20px;
+}
+	
+#menu{
+	
+	font-size: 1.75em;
+	margin:auto;
+
+}
+			
+a{
+			font-family: Arial Black,'Bebas Neue','Anton';
+			display: inline-block;
+			padding: 0 2em;
+			color: #ffffff;
+			text-decoration: none; /* enlève le texte souligné habituelle qui est sur les liens*/
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: .85em;
+}
+
+ a:hover {
+				color: rgba(255, 255, 255, 0.75);
+}
+			
+			
+		/*cache entete telephone*/
+#headert{
+	visibility: hidden;
+}
+			
+#menut{
+	
+visibility: hidden;
+}
+.cache{
+	position:absolute;
+	 top: -9999px;
+  left: -9999px;
+}
+
+
+/* page de base*/
+
+#squelette{
+	display: grid;
+}
+
+#header{
+	display:grid;
+	background:#1c1c1c;
+	color: #d5d5d5;
+	height: 5em;
+	width: auto;
+	opacity: 0.9;
+
+}
+
+#header .inner{
+	display:flex;
+	width: 100%;
+}
+
+.logo{
+	font-family: Impact,Arial Black,'Anton',Times New Roman;
+	font-size: 1.75em;
+	color: white;
+	margin:20px;
+}
+
+/* page de base*/
+
+#squelette{
+	display: grid;
+}
+
+#header{
+	display:grid;
+	background:#1c1c1c;
+	color: #d5d5d5;
+	height: 5em;
+	width: auto;
+	opacity: 0.9;
+
+}
+
+#header .inner{
+	display:flex;
+	width: 100%;
+}
+
+.logo{
+	font-family: Impact,Arial Black,'Anton',Times New Roman;
+	font-size: 1.75em;
+	color: white;
+	margin:20px;
+}
+
+#banner{
+	display:grid;
+	width: 100%;
+}
+
+#banner .titre{
+	margin:auto;
+	margin-top:3em;
+}
+
+#banner .titre h1{
+	margin:auto;
+	font-family: Impact,Arial Black,'Anton',Times New Roman;
+	font-size: 5em;
+	color:white;
+}
+
+.contenu_page p{
+color:white;
+margin:20px;
+font-size:1.25em;
+}
+
+.armes li{
+	color:white;
+	margin-left:20px;
+	font-size:1.25em;
+}
+
+
+.Photo1 {
+	float:right;
+	margin:20px;
+}
+
+.Photo1 img{
+  height: 15em;
+  width: 19em;
+}
+
+
+
+.conteneur{
+	display:flex;
+	justify-content: space-around;
+}
+
+
+.Photo3 img{
+  height: 13em;
+  width: 13em;
+}
+
+.Photo4 img{
+  height: 13em;
+  width: 18em;
+}
+
+.Photo5 img{
+  height: 13em;
+  width: 10em;
+}
+
+  .Photo6{
+	float:right;
+	margin-top:20px;
+	margin-left: 20px;
+	margin-right:10px;
+}
+.Photo6 img{
+  height: 14em;
+  width: 20em;
+}
+.source {
+	height: 17em;
+  width: 17em;
+float: right ;
+margin-right:10em;
+margin-top: 8em;
+
+}
+
+.text_source{
+	color: white;
+font-size: 15px;
+}
+
+.lien_source {
+  color:grey;
+
+}
+
+figcaption {
+	color:white;
+}
+
+	#footer{
+
+background:#1c1c1c;
+
+margin-bottom:0;
+
+width:100%;
+
+margin-top:0px;
+
+height:16em;
+}
+
+#footer p{
+	color: #fcfcfc;
+	font-size:1.25em;
+	text-align:center;
+	
+}
+#footer .lien_source1{
+	color: #00BFFF;
+}
+
+#footer .lien_source2{
+	color: #FFFAFA;
+	
+}
+#footer .lien_source3{
+	color: #FF0000;
+	
+}
+#footer ul{
+
+color: #FF0000;
+
+}
+#footer li{
+margin-left:45%;
+}
+
+
+#footer h3{
+	color: #fcfcfc;
+	text-align:center;
+	
+}
