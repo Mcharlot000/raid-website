@@ -1,3 +1,3 @@
 # raid-website
 
-Website for a IUT project, the subject is the RAID
+first example of a website for a university project
